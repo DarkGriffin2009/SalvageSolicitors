@@ -1,0 +1,132 @@
+
+    .header{
+        display: inline-block ;
+        color:darkblue;
+        font-weight:bolder ;
+        text-align: center;
+        
+        
+    }
+    body{
+        
+        margin:0;
+        background-repeat: no-repeat;
+        
+        background-size: cover;
+    }
+    a{
+        margin: 0px 10px 0px 10px;
+        text-decoration: none;
+        color:white;
+         
+        text-align: center;
+    }
+    #second{
+        margin-left: 90px;
+    }
+    main{
+        text-align: center;
+    }
+    nav{
+        background-color: gray;
+    }
+    a:hover {
+        color:blue;
+        text-decoration: underline;
+      }
+    #first{
+        background-color: wheat;
+        /* height: 25px ;
+        padding: 0 0 25px 0; */
+
+    }
+    #third{
+        margin-left: 30px;
+    }
+    .topic{
+        display:inline-block;
+        text-align: center;
+        width: 100%; border: 2px solid black;
+        outline: rgb(255, 0, 47) solid 10px;
+        margin: auto;  
+        padding: 20px;
+        text-align: center;
+      }
+    
+    h1{
+        font-size:40px;
+    }
+    #ourservices{
+        background-color: rgb(223, 220, 220);
+        text-align: center;
+        height: 600px ;
+        padding: 50px 0 0 0 ;
+    }
+    .form{
+        display:inline-block;
+        margin:0 25px 0 25px;
+            border: 2px solid black;
+            outline: gold solid 10px;
+            margin: auto;  
+            padding: 20px;
+            text-align: center;
+            
+    
+
+    }
+    h2{
+        margin-bottom: 60px;
+        font-size: 50px;
+        text-decoration: underline;
+    }
+    .form:hover{
+        color:blue;
+    }
+    p{
+        line-height: 1.5;
+    }
+    .name{
+        display:inline-block;
+        width: 350px;
+            border: 2px solid black;
+            outline: #4CAF50 solid 10px;
+            margin: auto;  
+            padding: 20px;
+            text-align: center;
+          }
+    
+    #aboutus{ background-color: rgb(223, 220, 220);
+        text-align: center;
+        height: 600px ;
+        padding: 50px 0 0 0 ;
+        background-color: white;
+    
+    }
+    #contactus{
+        background-color: rgb(224, 214, 214);
+        text-align: center;
+        padding: 50px 0 0 0;
+        
+    }
+    button{
+        background-color: rgb(41, 41, 174);
+        color:white;
+    }
+    .meet{
+        display: inline-block;
+        margin: 0 100px 0 100px;
+         border: 2px solid black;
+            outline:brown solid 10px;
+            margin: auto;  
+            padding: 20px;
+            text-align: center;
+          }
+    footer{
+        width: 100%;
+        height: 90px;
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+    }   
+
+    
