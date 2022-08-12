@@ -2,7 +2,7 @@
     .header{
         display: inline-block ;
         color:darkblue;
-        font-weight:bolder ;
+        /* font-weight:bolder ; */
         text-align: center;
         
         
@@ -10,9 +10,33 @@
     body{
         
         margin:0;
-        background-repeat: no-repeat;
-        
+        padding:0;
+     
+    }
+    .banner-image{
+        background-image: url('./images/banner.jpg');
+        height: 500px;
+        background-position: center;
         background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 20px solid orangered;
+    }
+    .banner-image h1{
+        color:white;
+        font-size: 80px;
+        
+    }
+    .banner-image p{
+        color:white;
+        font-size: 30px;
+        
+    }
+    .banner-image{
+        padding: 60px;
     }
     a{
         margin: 0px 10px 0px 10px;
@@ -46,8 +70,8 @@
     .topic{
         display:inline-block;
         text-align: center;
-        width: 100%; border: 2px solid black;
-        outline: rgb(255, 0, 47) solid 10px;
+        width: 100%;
+        /* outline: rgb(255, 0, 47) solid 10px; */
         margin: auto;  
         padding: 20px;
         text-align: center;
@@ -65,8 +89,8 @@
     .form{
         display:inline-block;
         margin:0 25px 0 25px;
-            border: 2px solid black;
-            outline: gold solid 10px;
+            /* border: 2px solid black; */
+            /* outline: gold solid 10px; */
             margin: auto;  
             padding: 20px;
             text-align: center;
@@ -77,19 +101,23 @@
     h2{
         margin-bottom: 60px;
         font-size: 50px;
-        text-decoration: underline;
     }
     .form:hover{
         color:blue;
     }
+
+    .service-img:hover{
+        border: 2px solid black;
+    }
+
     p{
         line-height: 1.5;
     }
     .name{
         display:inline-block;
-        width: 350px;
-            border: 2px solid black;
-            outline: #4CAF50 solid 10px;
+        width: 250px;
+            /* border: 2px solid black; */
+            /* outline: #4CAF50 solid 10px; */
             margin: auto;  
             padding: 20px;
             text-align: center;
@@ -97,8 +125,8 @@
     
     #aboutus{ background-color: rgb(223, 220, 220);
         text-align: center;
-        height: 600px ;
-        padding: 50px 0 0 0 ;
+        height: 500px ;
+        padding: 40px 0 ;
         background-color: white;
     
     }
@@ -115,8 +143,8 @@
     .meet{
         display: inline-block;
         margin: 0 100px 0 100px;
-         border: 2px solid black;
-            outline:brown solid 10px;
+         /* border: 2px solid black; */
+            /* outline:brown solid 10px; */
             margin: auto;  
             padding: 20px;
             text-align: center;
@@ -127,6 +155,11 @@
         background-color: darkblue;
         color: white;
         text-align: center;
+        
     }   
-
+    
+    .map{
+        width: 100%;
+    }
+    
     
